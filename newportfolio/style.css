@@ -1,0 +1,145 @@
+body{
+    background-color: black;
+   
+
+}
+#header{
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 21px;
+   position: fixed;
+   background-color: black;
+   width: 1119px;
+}
+.navigation{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight:800;
+    font-style: normal;
+    padding: 10px;
+}
+.sign-img{
+    width: 212px;
+    height: 65px;
+    margin-right: auto; 
+    cursor: pointer;
+}
+.link{
+    margin: 0 25px;
+    text-decoration: none;   
+    color:#f4e9ef;
+}
+.link:hover{
+    color: deeppink;
+}
+
+#section1{
+    background-image: url("/pics/section  1.jpg");
+}
+#section2{
+    background-image: url("/pics/section  2.jpg");
+    margin-top: 20px;
+
+}
+#section3{
+    background-image: url("pics/section  3.jpg");
+    margin-top: 20px;
+
+}
+#section4{
+    background-image: url("pics/section  4.jpg");
+    margin-top: 20px;
+
+}
+#section5{
+    background-image: url("pics/section  5.jpg");
+    margin-top: 20px;
+
+}
+#section6{
+    background-image: url("pics/section  6.jpg");
+    margin-top: 20px;
+
+}
+
+
+
+
+.section{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+    
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 50px;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    transition: transform 0.3s ease; 
+}
+.container:hover {
+    transform: scale(1.05);
+}
+
+.Writing {
+    flex: 1;
+    min-width: 300px;
+}
+
+.Writing h2 {
+    font-weight:1500;
+   /* color: #FF7F50;   Light coral for contrast */
+   color:#ff7878;
+    margin: 0 0 20px 0;
+}
+
+.Writing p {
+    font-weight: 400;
+    color: #ddf4a2;
+    line-height: 1.8;
+}
+
+.Photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 auto;
+}
+.Mypic{
+    height: 245px;
+    width: 245px;
+    border-radius: 50%;
+}
+.footer{
+    margin-top: 40px;
+    color: deeppink;
+}
+.Footer-pic{
+    width:30px;
+    height:30px;
+    transition: transform 0.3s ease; 
+}
+.Footer-pic:hover{
+    
+    transform: scale(1.20);
+    
+}
+
